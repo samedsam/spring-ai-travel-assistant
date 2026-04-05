@@ -23,4 +23,4 @@ mvn spring-boot:run
 ```
 
 ## Author
-[smartgnt.com](https://smartgnt.com)s
+[smartgnt.com](https://smartgnt.com)
