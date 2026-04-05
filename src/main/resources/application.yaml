@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: travel
+  ai:
+    chat:
+      client:
+        enabled: false
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+
+groq:
+  api-key: ${GROQ_API_KEY}
+  base-url: https://api.groq.com/openai
+  model: llama-3.3-70b-versatile
