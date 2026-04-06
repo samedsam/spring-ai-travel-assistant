@@ -11,7 +11,7 @@ public class StreamService {
     ChatClient openAiChatClient;
     ChatClient groqChatClient;
 
-    public StreamService (@Qualifier("groqChatClient") ChatClient grokApi, @Qualifier("openAiChatClient") ChatClient openAiApi) {
+    public StreamService (@Qualifier("groqChatClient") ChatClient groqChatClient, @Qualifier("openAiChatClient") ChatClient openAiChatClient) {
         this.openAiChatClient = openAiChatClient;
         this.groqChatClient = groqChatClient;
     }
